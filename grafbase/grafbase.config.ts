@@ -7,8 +7,6 @@ const User = g.model('User', {
   personalNotes: g.string().optional(),
 })
 
-const Preferences = {}
-
 export default config({
   schema: g
 })
